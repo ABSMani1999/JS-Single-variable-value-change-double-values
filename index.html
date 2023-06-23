@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Double numbers</title>
+        <meta charset ="utf-8">
+		<meta name="description" content=""/>
+		<meta name="keywords" content="HTML,CSS,Java script"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    </head>
+    <body>
+       <script>
+        var a = parseInt(prompt("Enter the value"));
+
+        while(a!=0){
+            let rem = a%10;
+            var a = (a-rem)/10;
+            var res = rem*11;
+            document.write(res);
+        }
+       </script> 
+    </body>
+</html>
